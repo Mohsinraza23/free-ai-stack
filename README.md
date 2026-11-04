@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License"/>
   <img src="https://img.shields.io/badge/Agent%20Skills-SKILL.md-6366f1?style=for-the-badge" alt="Agent Skills format"/>
-  <img src="https://img.shields.io/badge/Version-1.1.0-ec4899?style=for-the-badge" alt="Version 1.1.0"/>
+  <img src="https://img.shields.io/badge/Version-1.1.1-ec4899?style=for-the-badge" alt="Version 1.1.1"/>
   <img src="https://img.shields.io/badge/Made%20by-Mohsin%20Raza-f59e0b?style=for-the-badge" alt="Made by Mohsin Raza"/>
 </p>
 
