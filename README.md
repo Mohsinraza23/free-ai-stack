@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@YOUR_CHANNEL"><img src="https://img.shields.io/badge/YouTube-Code%20With%20Mohsin-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Mohsin%20Raza-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://wa.me/YOUR_NUMBER"><img src="https://img.shields.io/badge/WhatsApp-Chat-25d366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <a href="https://www.youtube.com/@CodewithMohsin1"><img src="https://img.shields.io/badge/YouTube-Code%20With%20Mohsin-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://www.linkedin.com/in/mohsin-raza-a514392b6/"><img src="https://img.shields.io/badge/LinkedIn-Mohsin%20Raza-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.whatsapp.com/channel/0029VbAREQZDDmFZxWSUQS1o"><img src="https://img.shields.io/badge/WhatsApp-Chat-25d366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
 
 ---
@@ -237,9 +237,12 @@ Issues and pull requests are welcome, especially for:
 **Mohsin Raza**, AI engineer and educator from Pakistan. I teach AI and coding on my channel.
 
 <p>
-  <a href="https://www.youtube.com/@YOUR_CHANNEL"><img src="https://img.shields.io/badge/▶_Subscribe-Code%20With%20Mohsin-ff0000?style=flat-square&logo=youtube&logoColor=white" alt="Subscribe on YouTube"/></a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/Connect-LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
-  <a href="https://wa.me/YOUR_NUMBER"><img src="https://img.shields.io/badge/Message-WhatsApp-25d366?style=flat-square&logo=whatsapp&logoColor=white" alt="Message on WhatsApp"/></a>
+  <a href="https://www.youtube.com/@CodewithMohsin1"><img src="https://img.shields.io/badge/▶_Subscribe-Code%20With%20Mohsin-ff0000?style=flat-square&logo=youtube&logoColor=white" alt="Subscribe on YouTube"/></a>
+  <a href="https://www.linkedin.com/in/mohsin-raza-a514392b6/"><img src="https://img.shields.io/badge/Connect-LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
+  <a href="https://www.whatsapp.com/channel/0029VbAREQZDDmFZxWSUQS1o"><img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25d366?style=flat-square&logo=whatsapp&logoColor=white" alt="Join WhatsApp channel"/></a>
+  <a href="https://www.instagram.com/mohsinraza3541/"><img src="https://img.shields.io/badge/Follow-Instagram-e4405f?style=flat-square&logo=instagram&logoColor=white" alt="Follow on Instagram"/></a>
+  <a href="https://www.facebook.com/mohsin.raza.166438"><img src="https://img.shields.io/badge/Follow-Facebook-1877f2?style=flat-square&logo=facebook&logoColor=white" alt="Follow on Facebook"/></a>
+  <a href="https://codewithmohsin-links.vercel.app/"><img src="https://img.shields.io/badge/All%20My-Links-7c3aed?style=flat-square&logo=linktree&logoColor=white" alt="All my links"/></a>
 </p>
 
 ---
