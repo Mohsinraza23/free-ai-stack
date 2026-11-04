@@ -111,17 +111,36 @@ sequenceDiagram
 
 ## 🚀 Install
 
-### Option 1: One command (recommended)
+Pick the tool you use. Each option below is independent.
+
+### 🟣 Claude.ai (web or desktop app)
+
+**[⬇️ Download free-ai-tools-router.zip](https://github.com/Mohsinraza23/free-ai-stack/raw/main/free-ai-tools-router.zip)**
+
+1. Download the ZIP above. **Do not extract it.**
+2. Open [claude.ai](https://claude.ai), go to **Settings**, then **Customize** (or **Skills**, depending on your app version).
+3. Click upload and choose `free-ai-tools-router.zip`.
+4. Turn the skill on, then test it with: *"Which free AI tool is best for a Roman Urdu script?"*
+
+> ℹ️ Skills need a plan that supports them. If you cannot find the upload option, check your plan first.
+
+### 🟠 Claude Code (terminal or IDE)
+
+```bash
+npx skills add Mohsinraza23/free-ai-stack -g
+```
+
+Choose `free-ai-tools-router` when asked. Windows manual install: copy the `free-ai-tools-router/` folder into `C:\Users\<you>\.claude\skills\`.
+
+### ⚪ Other agents
 
 ```bash
 npx skills add Mohsinraza23/free-ai-stack
 ```
 
-### Option 2: Copy the folder
+The installer lists every supported agent it finds on your machine, such as Cursor, Codex and Antigravity.
 
-Copy the `free-ai-tools-router/` folder from this repo into your agent's skills folder. For Claude Code, that is usually `~/.claude/skills/`.
-
-### Update or remove
+### 🔄 Update or remove
 
 ```bash
 npx skills update
@@ -135,6 +154,7 @@ npx skills remove free-ai-tools-router
 free-ai-stack/
 ├── README.md                      ← you are here
 ├── LICENSE                        ← MIT
+├── free-ai-tools-router.zip       ← upload this to Claude.ai
 ├── assets/
 │   └── banner.svg                 ← banner image
 └── free-ai-tools-router/
