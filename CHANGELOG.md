@@ -6,6 +6,14 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-11-04
+
+### Changed
+- `SKILL.md`: the privacy reminder must come before any processing of personal or student data.
+- `SKILL.md`: no claims that a tool is part of a programme, school or news item unless a source confirms it.
+- `SKILL.md`: the output shape is short, but the ready-to-paste prompt can be as long as the task needs.
+- `evals/evals.md`: case 8 and case 3 expectations updated to match.
+
 ## [1.1.0] - 2026-11-04
 
 ### Changed

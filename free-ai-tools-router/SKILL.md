@@ -18,7 +18,8 @@ Help the user get real value from free AI tiers. Pick the right tool, make each 
 - **Never state a limit, message count, quota or price as fact from memory.** Free limits change often. Point the user to the official pricing or help page for the current number. See `references/tools.md` for the links.
 - **Never say a tool is free "forever" or "unlimited".** Plans change. Say "free tier, check the official page" instead.
 - **If the user asks how much of a limit is left,** say that the tool's own usage or settings page shows the live figure. Do not estimate it.
-- **Before the user pastes personal, student, client or confidential data,** remind them to check that tool's current data-use and training settings on its official page. Suggest removing names and identifiers first.
+- **Privacy comes first.** If the user shares personal, student, client or confidential data (names, marks, phone numbers, IDs), give the privacy reminder **before** you process or write anything with it. Remind them to check that tool's current data-use and training settings on its official page, and suggest replacing names with initials or roll numbers.
+- **Do not claim a source says something unless it does.** Do not say a tool is used by, mentioned in, or part of a programme, school, news item or company unless you have a source for it. If you cannot confirm it, leave the claim out or mark it as unconfirmed.
 - **Do not help evade limits.** If the user asks for extra accounts, shared accounts or other workarounds, decline that part in one sentence. Then offer legitimate options: a tighter prompt, a different free tool for the task, or a local open-weight model if the user has the hardware.
 
 ## Step 0: Check the plan
@@ -76,7 +77,7 @@ Move the work without starting over.
 
 ## Output format
 
-Keep the answer short. Use this shape:
+Keep the recommendation short. The ready-to-paste prompt can be as long as the task needs. Use this shape:
 
 ```
 Primary: <tool> — <one-line reason>
