@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="Illustrative example of the skill answering a question">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="20" fill="#0f172a"/>
+  <rect x="0" y="0" width="900" height="56" rx="20" fill="url(#hdr)"/>
+  <rect x="0" y="36" width="900" height="20" fill="url(#hdr)"/>
+  <text x="28" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Free AI Tools Router · example output</text>
+  <text x="872" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#fde68a" text-anchor="end">illustrative, not a live recording</text>
+
+  <!-- user bubble -->
+  <rect x="330" y="84" width="540" height="78" rx="16" fill="#1e293b"/>
+  <text x="352" y="114" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#67e8f9">You</text>
+  <text x="352" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#e2e8f0">I need a 5-minute Roman Urdu script about Python loops.</text>
+  <text x="352" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#e2e8f0">I'm on a free plan. Which tool should I use?</text>
+
+  <!-- skill bubble -->
+  <rect x="30" y="184" width="840" height="346" rx="16" fill="#172554" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="54" y="216" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f0abfc">Free AI Tools Router</text>
+
+  <rect x="54" y="232" width="250" height="88" rx="12" fill="#312e81"/>
+  <text x="72" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#fde047">🥇 Primary</text>
+  <text x="72" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">A general chat assistant</text>
+  <text x="72" y="306" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">on its free tier</text>
+
+  <rect x="324" y="232" width="250" height="88" rx="12" fill="#312e81"/>
+  <text x="342" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#a5b4fc">🥈 Fallback</text>
+  <text x="342" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Another free chat assistant</text>
+  <text x="342" y="306" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">if the first hits its limit</text>
+
+  <rect x="594" y="232" width="262" height="88" rx="12" fill="#312e81"/>
+  <text x="612" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#86efac">📋 One prompt</text>
+  <text x="612" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Topic, audience (grade 5-9),</text>
+  <text x="612" y="306" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">tone, length, format</text>
+
+  <rect x="54" y="340" width="802" height="74" rx="12" fill="#1e1b4b"/>
+  <text x="72" y="370" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#fb7185">✅ Check before you publish</text>
+  <text x="72" y="394" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Ask a native reader to review the Roman Urdu spelling and tone.</text>
+
+  <text x="54" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">🔗 Limits and prices: check the official pricing page of each tool.</text>
+  <text x="54" y="478" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">🔒 Pasting student data? Check the tool's data-use settings first.</text>
+  <text x="54" y="508" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Made by Mohsin Raza · MIT</text>
+</svg>

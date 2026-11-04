@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License"/>
   <img src="https://img.shields.io/badge/Agent%20Skills-SKILL.md-6366f1?style=for-the-badge" alt="Agent Skills format"/>
-  <img src="https://img.shields.io/badge/Status-v1.0-ec4899?style=for-the-badge" alt="Status v1.0"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-ec4899?style=for-the-badge" alt="Status v1.0"/>
   <img src="https://img.shields.io/badge/Made%20by-Mohsin%20Raza-f59e0b?style=for-the-badge" alt="Made by Mohsin Raza"/>
 </p>
 
@@ -27,6 +27,8 @@
 ## 📖 Table of contents
 
 - [What is this?](#-what-is-this)
+- [See it in action](#-see-it-in-action)
+- [Who is it for?](#-who-is-it-for)
 - [What it does](#-what-it-does)
 - [How it works](#-how-it-works)
 - [Install](#-install)
@@ -36,6 +38,7 @@
 - [FAQ](#-faq)
 - [Contributing](#-contributing)
 - [Author](#-author)
+- [Changelog](CHANGELOG.md)
 - [License](#-license)
 
 ---
@@ -50,6 +53,28 @@
 4. Point you to the **official page** for current limits, instead of guessing.
 
 It is a set of instructions, not a new AI model and not a detector bypass. Your existing agent does the work.
+
+---
+
+## 🎬 See it in action
+
+<p align="center">
+  <img src="assets/demo.svg" alt="Example: the skill recommends a primary tool, a fallback, a one-prompt plan and a check step" width="90%"/>
+</p>
+
+> The image above is an **illustrative example** of the output format, not a live recording.
+
+---
+
+## 👥 Who is it for?
+
+| Who you are | How it helps |
+|---|---|
+| 🎓 **Students** | Pick the free tool for an assignment, and get a full answer in one message |
+| 🎥 **Creators** | Write scripts, captions and posts in English, Roman Urdu or Urdu without waste |
+| 💼 **Freelancers** | Draft proposals and client messages, and hand work over when a limit hits |
+| 💻 **Developers** | Choose a free coding tool for a project, and move a task to another tool cleanly |
+| 🏫 **Teachers** | Plan lessons with a free tool, with a privacy reminder before using student data |
 
 ---
 
@@ -154,9 +179,14 @@ npx skills remove free-ai-tools-router
 free-ai-stack/
 ├── README.md                      ← you are here
 ├── LICENSE                        ← MIT
+├── CONTRIBUTING.md                ← how to contribute
+├── CHANGELOG.md                   ← version history
+├── scripts/
+│   └── check_links.py             ← checks README links
 ├── free-ai-tools-router.zip       ← upload this to Claude.ai
 ├── assets/
-│   └── banner.svg                 ← banner image
+│   ├── banner.svg                 ← banner image
+│   └── demo.svg                   ← example output
 └── free-ai-tools-router/
     └── SKILL.md                   ← the skill itself
 ```
@@ -189,6 +219,8 @@ free-ai-stack/
 ## 🧰 Supported tools
 
 The skill covers these free tiers. Limits change often, so always confirm on the official page.
+
+> 🔎 **Link status:** Links were added on 2026-11-04. An automated check has not been run yet. Run `python3 scripts/check_links.py` to check them.
 
 | Tool | Best for | Official page |
 |---|---|---|
@@ -244,7 +276,7 @@ Yes. The skill is MIT licensed. The tools it routes you to have their own pricin
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome, especially for:
+Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Issues and pull requests are welcome, especially for:
 
 - 🔄 Corrections when a provider changes its free plan
 - 🧩 Better prompt templates for specific tasks
