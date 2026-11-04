@@ -40,7 +40,7 @@
 - [Join the project](#-join-the-project)
 - [Contributing](#-contributing)
 - [Author](#-author)
-- [Roadmap](#️-roadmap)
+- [Roadmap](#roadmap)
 - [Changelog](CHANGELOG.md)
 - [License](#-license)
 
@@ -287,7 +287,7 @@ Yes. The skill is MIT licensed. The tools it routes you to have their own pricin
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] v1.0: skill, README, ZIP for Claude.ai, install for Claude Code
 - [x] v1.1: tool reference file, evaluation cases, plan check, "when not to use" section
