@@ -12,6 +12,7 @@ import pathlib
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -35,7 +36,8 @@ def extract_links(text: str) -> list[str]:
 def check(url: str) -> tuple[bool, str]:
     """Return (ok, status) for one URL. Uses HEAD first, then GET if HEAD is refused."""
     for method in ("HEAD", "GET"):
-        request = urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
+        safe_url = urllib.parse.quote(url, safe=":/?&=%#@+,;~[]()!*'")
+        request = urllib.request.Request(safe_url, method=method, headers={"User-Agent": USER_AGENT})
         try:
             with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
                 code = response.status
@@ -44,7 +46,7 @@ def check(url: str) -> tuple[bool, str]:
             if method == "HEAD" and error.code in (405, 403, 501):
                 continue
             return False, str(error.code)
-        except (urllib.error.URLError, TimeoutError, OSError) as error:
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError) as error:
             return False, f"error: {getattr(error, 'reason', error)}"
     return False, "no response"
 
