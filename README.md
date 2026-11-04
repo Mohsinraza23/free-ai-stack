@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License"/>
   <img src="https://img.shields.io/badge/Agent%20Skills-SKILL.md-6366f1?style=for-the-badge" alt="Agent Skills format"/>
-  <img src="https://img.shields.io/badge/Version-1.0.0-ec4899?style=for-the-badge" alt="Status v1.0"/>
+  <img src="https://img.shields.io/badge/Version-1.1.0-ec4899?style=for-the-badge" alt="Status v1.0"/>
   <img src="https://img.shields.io/badge/Made%20by-Mohsin%20Raza-f59e0b?style=for-the-badge" alt="Made by Mohsin Raza"/>
 </p>
 
@@ -27,6 +27,7 @@
 ## 📖 Table of contents
 
 - [What is this?](#-what-is-this)
+- [Quick start](#-quick-start-60-seconds)
 - [See it in action](#-see-it-in-action)
 - [Who is it for?](#-who-is-it-for)
 - [What it does](#-what-it-does)
@@ -38,6 +39,7 @@
 - [FAQ](#-faq)
 - [Contributing](#-contributing)
 - [Author](#-author)
+- [Roadmap](#️-roadmap)
 - [Changelog](CHANGELOG.md)
 - [License](#-license)
 
@@ -55,6 +57,12 @@
 It is a set of instructions, not a new AI model and not a detector bypass. Your existing agent does the work.
 
 ---
+
+## ⚡ Quick start (60 seconds)
+
+1. Install for Claude Code: `npx skills add Mohsinraza23/free-ai-stack -g`
+2. Or for Claude.ai: download the ZIP below and upload it in Settings → Customize.
+3. Ask: *"Which free AI tool is best for a Roman Urdu script?"*
 
 ## 🎬 See it in action
 
@@ -184,11 +192,15 @@ free-ai-stack/
 ├── scripts/
 │   └── check_links.py             ← checks README links
 ├── free-ai-tools-router.zip       ← upload this to Claude.ai
+├── evals/
+│   └── evals.md                   ← test cases for the skill
 ├── assets/
 │   ├── banner.svg                 ← banner image
 │   └── demo.svg                   ← example output
 └── free-ai-tools-router/
-    └── SKILL.md                   ← the skill itself
+    ├── SKILL.md                   ← the skill itself
+    └── references/
+        └── tools.md                  ← tool links and ready prompts
 ```
 
 </details>
@@ -273,6 +285,15 @@ Yes. The skill is MIT licensed. The tools it routes you to have their own pricin
 </details>
 
 ---
+
+## 🗺️ Roadmap
+
+- [x] v1.0: skill, README, ZIP for Claude.ai, install for Claude Code
+- [x] v1.1: tool reference file, evaluation cases, plan check, "when not to use" section
+- [ ] Automated link check in CI
+- [ ] Live test results for the evaluation cases
+- [ ] More Roman Urdu and Urdu prompt templates
+- [ ] Feedback from real users
 
 ## 🤝 Contributing
 

@@ -6,6 +6,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-04
+
+### Changed
+- `SKILL.md`: clearer hard rules, a plan check for paid users, a "when not to use" section, trigger words in the description, and a fixed output format.
+- Moved tool links and ready-made prompts to `references/tools.md`, with a status column.
+
+### Added
+- `evals/evals.md`: 10 test cases with expected behaviour and fail conditions.
+- README: quick start, roadmap, and an updated file tree.
+- `free-ai-tools-router.zip` rebuilt to include the updated skill and reference file.
+
 ## [1.0.0] - 2026-11-04
 
 ### Added

@@ -38,6 +38,13 @@ Thanks for helping make this skill better. This guide explains how to propose ch
 - Run at least 3 real tasks in the agent you use, one of which should involve a handoff.
 - Note any answer that gives an unverified limit, or that skips the privacy reminder when it should appear.
 
+## Releasing a skill change
+
+1. Run the cases in `evals/evals.md` and record the results.
+2. Re-check links with `python3 scripts/check_links.py`.
+3. Rebuild the Claude.ai ZIP from the `free-ai-tools-router/` folder only (it should contain `SKILL.md` and `references/`).
+4. Update `CHANGELOG.md` and the version badge in the README.
+
 ## Review process
 
 - Maintainers check that claims have official sources and that no rule in *Ground rules* is broken.
