@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License"/>
   <img src="https://img.shields.io/badge/Agent%20Skills-SKILL.md-6366f1?style=for-the-badge" alt="Agent Skills format"/>
-  <img src="https://img.shields.io/badge/Version-1.1.0-ec4899?style=for-the-badge" alt="Status v1.0"/>
+  <img src="https://img.shields.io/badge/Version-1.1.0-ec4899?style=for-the-badge" alt="Version 1.1.0"/>
   <img src="https://img.shields.io/badge/Made%20by-Mohsin%20Raza-f59e0b?style=for-the-badge" alt="Made by Mohsin Raza"/>
 </p>
 
@@ -62,7 +62,7 @@ It is a set of instructions, not a new AI model and not a detector bypass. Your 
 ## ⚡ Quick start (60 seconds)
 
 1. Install for Claude Code: `npx skills add Mohsinraza23/free-ai-stack -g`
-2. Or for Claude.ai: download the ZIP below and upload it in Settings → Customize.
+2. Or for Claude.ai: download the ZIP from the [Install section](#-install) and upload it in Settings → Customize.
 3. Ask: *"Which free AI tool is best for a Roman Urdu script?"*
 
 ## 🎬 See it in action
@@ -172,7 +172,7 @@ Choose `free-ai-tools-router` when asked. Windows manual install: copy the `free
 npx skills add Mohsinraza23/free-ai-stack
 ```
 
-The installer lists every supported agent it finds on your machine, such as Cursor, Codex and Antigravity.
+The installer lists the supported agents it finds on your machine. Examples include Antigravity and Codex.
 
 ### 🔄 Update or remove
 
@@ -186,22 +186,22 @@ npx skills remove free-ai-tools-router
 
 ```text
 free-ai-stack/
-├── README.md                      ← you are here
-├── LICENSE                        ← MIT
-├── CONTRIBUTING.md                ← how to contribute
-├── CHANGELOG.md                   ← version history
-├── scripts/
-│   └── check_links.py             ← checks README links
-├── free-ai-tools-router.zip       ← upload this to Claude.ai
-├── evals/
-│   └── evals.md                   ← test cases for the skill
+├── README.md                        ← you are here
+├── LICENSE                          ← MIT
+├── CONTRIBUTING.md                  ← how to contribute
+├── CHANGELOG.md                     ← version history
+├── free-ai-tools-router.zip         ← upload this to Claude.ai
 ├── assets/
-│   ├── banner.svg                 ← banner image
-│   └── demo.svg                   ← example output
+│   ├── banner.svg                   ← banner image
+│   └── demo.svg                     ← example output
+├── scripts/
+│   └── check_links.py               ← checks README links
+├── evals/
+│   └── evals.md                     ← test cases for the skill
 └── free-ai-tools-router/
-    ├── SKILL.md                   ← the skill itself
+    ├── SKILL.md                     ← the skill itself
     └── references/
-        └── tools.md                  ← tool links and ready prompts
+        └── tools.md                 ← tool links and ready prompts
 ```
 
 </details>
