@@ -337,6 +337,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Issues and pull requests are welc
 
 Released under the [MIT License](LICENSE).
 
+**AI assistance:** parts of this project were drafted with AI help. The author reviewed and tested the skill and its files. Please check the official pages before you rely on any limit, price or link.
+
 <p align="center">
   <sub>⭐ If this helped you, a star on the repo means a lot.</sub>
 </p>
