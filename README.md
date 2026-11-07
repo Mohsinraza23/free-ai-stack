@@ -308,6 +308,10 @@ This skill gets better when real people use it. You can help in five minutes:
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
 
+## 🎬 Other skill in this repo: Faceless Shorts
+
+[`faceless-shorts/`](faceless-shorts) makes narrated faceless YouTube Shorts, TikToks and Reels fully in code on your own computer: script, free local AI voice, word-synced captions and MP4 render. It has six styles, a finished example project for each, and a sample video in [`samples/`](faceless-shorts/samples). Install it the same way as the router, from its own README.
+
 ## 🤝 Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Issues and pull requests are welcome, especially for:
