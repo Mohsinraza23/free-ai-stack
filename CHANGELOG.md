@@ -6,8 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
-### Added
-- `faceless-shorts/`: a skill that makes narrated faceless shorts in code (six styles, example projects, sample video). Creator-style names removed; YouTube upload is local by default and needs the user's approval for each step.
+### Changed
+- Faceless Shorts moved to its own repo: https://github.com/Mohsinraza23/faceless-shorts
 
 ## [1.1.1] - 2026-11-04
 
